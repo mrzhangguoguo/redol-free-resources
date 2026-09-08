@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+/skills/bilibili-subtitle-extractor/runtime.json
+/skills/bilibili-subtitle-extractor/runtime.json.previous-*

@@ -1,0 +1,252 @@
+{
+  "video": "https://www.bilibili.com/video/BV1iYwRzKED5/",
+  "duration_seconds": 301.580771,
+  "hardware": {
+    "chip": "Apple M3",
+    "memory_gib": 16,
+    "os": "macOS 26.7 (25G227)"
+  },
+  "settings": {
+    "model": "small multilingual",
+    "language": "zh",
+    "threads": 4,
+    "beam_size": 5,
+    "best_of": 5,
+    "temperature": 0,
+    "temperature_increment": 0.2
+  },
+  "release_summary": {
+    "coreml": {
+      "n": 3,
+      "wall_seconds": {
+        "mean": 39.251498902997504,
+        "median": 39.922484999995504,
+        "min": 37.01242008400004,
+        "max": 40.819591624996974,
+        "std_sample": 1.9903028770560762
+      },
+      "cpu_seconds": {
+        "mean": 11.956666666666667,
+        "median": 12.8,
+        "min": 10.05,
+        "max": 13.02,
+        "std_sample": 1.654881667471524
+      },
+      "average_cores": {
+        "mean": 0.3037054277912791,
+        "median": 0.3189644844958922,
+        "min": 0.2715304748295688,
+        "max": 0.3206213240483763,
+        "std_sample": 0.02787663856873477
+      },
+      "max_rss_bytes": {
+        "mean": 975279445.3333334,
+        "median": 975257600,
+        "min": 974716928,
+        "max": 975863808,
+        "std_sample": 573751.9913179678
+      },
+      "rtf": {
+        "mean": 0.13015252521851767,
+        "median": 0.13237742203396483,
+        "min": 0.12272805046976963,
+        "max": 0.13535210315181856,
+        "std_sample": 0.0065995682365838785
+      },
+      "unique_normalized_text_outputs": 1
+    },
+    "original": {
+      "n": 3,
+      "wall_seconds": {
+        "mean": 221.80725606966493,
+        "median": 227.8093386249966,
+        "min": 204.59834116700222,
+        "max": 233.01408841699595,
+        "std_sample": 15.128860472442865
+      },
+      "cpu_seconds": {
+        "mean": 432.0233333333333,
+        "median": 450.89,
+        "min": 389.2,
+        "max": 455.97999999999996,
+        "std_sample": 37.1733161465766
+      },
+      "average_cores": {
+        "mean": 1.946127975637048,
+        "median": 1.9568773849587584,
+        "min": 1.9022637123060433,
+        "max": 1.979242829646342,
+        "std_sample": 0.03959934945421613
+      },
+      "max_rss_bytes": {
+        "mean": 2456595114.6666665,
+        "median": 2414870528,
+        "min": 2404106240,
+        "max": 2550808576,
+        "std_sample": 81768574.01436298
+      },
+      "rtf": {
+        "mean": 0.7354820910304818,
+        "median": 0.755384164148173,
+        "min": 0.6784197165110444,
+        "max": 0.7726423924322281,
+        "std_sample": 0.050165202583300185
+      },
+      "unique_normalized_text_outputs": 1
+    }
+  },
+  "release_runs": [
+    {
+      "label": "original",
+      "wall_seconds": 204.59834116700222,
+      "cpu_seconds": 389.2,
+      "average_cores": 1.9022637123060433,
+      "max_rss_bytes": 2414870528,
+      "segment_count": 170,
+      "last_end": 301.56,
+      "normalized_text_sha256": "d31a164b713bcd3a4a813d6e0e72823daa788fccf270a2facbace54f3bddd9e8",
+      "timestamps_valid": true
+    },
+    {
+      "label": "coreml",
+      "wall_seconds": 40.819591624996974,
+      "cpu_seconds": 13.02,
+      "average_cores": 0.3189644844958922,
+      "max_rss_bytes": 975257600,
+      "segment_count": 164,
+      "last_end": 301.6,
+      "normalized_text_sha256": "e55c7a5a803ef24e0fc9b559fb20a411f7a6fc3569235f501b3d8e7c13ed4289",
+      "timestamps_valid": true
+    },
+    {
+      "label": "coreml",
+      "wall_seconds": 39.922484999995504,
+      "cpu_seconds": 12.8,
+      "average_cores": 0.3206213240483763,
+      "max_rss_bytes": 975863808,
+      "segment_count": 164,
+      "last_end": 301.6,
+      "normalized_text_sha256": "e55c7a5a803ef24e0fc9b559fb20a411f7a6fc3569235f501b3d8e7c13ed4289",
+      "timestamps_valid": true
+    },
+    {
+      "label": "original",
+      "wall_seconds": 233.01408841699595,
+      "cpu_seconds": 455.97999999999996,
+      "average_cores": 1.9568773849587584,
+      "max_rss_bytes": 2404106240,
+      "segment_count": 170,
+      "last_end": 301.56,
+      "normalized_text_sha256": "d31a164b713bcd3a4a813d6e0e72823daa788fccf270a2facbace54f3bddd9e8",
+      "timestamps_valid": true
+    },
+    {
+      "label": "original",
+      "wall_seconds": 227.8093386249966,
+      "cpu_seconds": 450.89,
+      "average_cores": 1.979242829646342,
+      "max_rss_bytes": 2550808576,
+      "segment_count": 170,
+      "last_end": 301.56,
+      "normalized_text_sha256": "d31a164b713bcd3a4a813d6e0e72823daa788fccf270a2facbace54f3bddd9e8",
+      "timestamps_valid": true
+    },
+    {
+      "label": "coreml",
+      "wall_seconds": 37.01242008400004,
+      "cpu_seconds": 10.05,
+      "average_cores": 0.2715304748295688,
+      "max_rss_bytes": 974716928,
+      "segment_count": 164,
+      "last_end": 301.6,
+      "normalized_text_sha256": "e55c7a5a803ef24e0fc9b559fb20a411f7a6fc3569235f501b3d8e7c13ed4289",
+      "timestamps_valid": true
+    }
+  ],
+  "ablation_summary": {
+    "coreml": {
+      "n": 5,
+      "wall_seconds": {
+        "mean": 39.29006950019975,
+        "median": 41.60542504199839,
+        "min": 19.266283958000713,
+        "max": 50.88589949999732,
+        "std_sample": 11.877143034150105
+      },
+      "cpu_seconds": {
+        "mean": 12.888,
+        "median": 12.65,
+        "min": 6.84,
+        "max": 18.619999999999997,
+        "std_sample": 4.1938133005654885
+      },
+      "average_cores": {
+        "mean": 0.3295924022363366,
+        "median": 0.3307261008897286,
+        "min": 0.28817551642624556,
+        "max": 0.3659166917153735,
+        "std_sample": 0.032186852333509805
+      },
+      "max_rss_bytes": {
+        "mean": 975169126.4,
+        "median": 975306752,
+        "min": 974913536,
+        "max": 975355904,
+        "std_sample": 226609.14088535792
+      },
+      "rtf": {
+        "mean": 0.13028040204049704,
+        "median": 0.1379577987641319,
+        "min": 0.06388431610847495,
+        "max": 0.16873056040326612,
+        "std_sample": 0.03938295323131708
+      },
+      "unique_normalized_text_outputs": 1
+    },
+    "metal": {
+      "n": 5,
+      "wall_seconds": {
+        "mean": 36.63512552480097,
+        "median": 43.04895329100691,
+        "min": 20.504495042005146,
+        "max": 47.07396841599984,
+        "std_sample": 11.538621189140608
+      },
+      "cpu_seconds": {
+        "mean": 9.614,
+        "median": 10.09,
+        "min": 6.89,
+        "max": 12.5,
+        "std_sample": 2.2369465796035453
+      },
+      "average_cores": {
+        "mean": 0.2712855921798122,
+        "median": 0.26553954171731586,
+        "min": 0.22888028420391732,
+        "max": 0.3360238809044196,
+        "std_sample": 0.04063251068963657
+      },
+      "max_rss_bytes": {
+        "mean": 950560358.4,
+        "median": 951238656,
+        "min": 944095232,
+        "max": 953384960,
+        "std_sample": 3744175.9820794747
+      },
+      "rtf": {
+        "mean": 0.12147697733522411,
+        "median": 0.1427443375264695,
+        "min": 0.06799005172786034,
+        "max": 0.15609072747623773,
+        "std_sample": 0.03826046190899698
+      },
+      "unique_normalized_text_outputs": 1
+    }
+  },
+  "notes": [
+    "Same full source audio; model setup and network download excluded from inference comparisons.",
+    "PyTorch CPU FP32 vs whisper.cpp / Core ML FLOAT16 plus Metal: total improvement is not ANE-only.",
+    "Rootless ANE telemetry is system-wide, not per-process occupancy.",
+    "One video and shared Mac; dynamic CPU/GPU frequency and background applications were not controlled."
+  ]
+}

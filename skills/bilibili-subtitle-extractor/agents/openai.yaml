@@ -1,0 +1,5 @@
+interface:
+  display_name: "Bilibili Subtitle Extractor"
+  short_description: "Extract Bilibili subtitles with optional Apple Silicon ASR"
+  default_prompt: "Use $bilibili-subtitle-extractor to extract subtitles from this Bilibili video or local subtitle/media file and produce the raw and organized Markdown outputs, preferring official subtitles and reporting the source."
+  brand_color: "#00A1D6"
