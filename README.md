@@ -1,5 +1,7 @@
 # Redol Free Resources
 
+接手、维护或核对历史资料时，先读[文档索引](docs/README.md)。
+
 Public release assets for free Redol resources.
 
 ## Bilibili Subtitle Extractor v2.0.0
